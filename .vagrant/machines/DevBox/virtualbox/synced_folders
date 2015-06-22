@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/data":{"guestpath":"/home/vagrant/data","hostpath":"D:/workbench/DevBoxTrusty/data","disabled":false},"/srv":{"guestpath":"/srv","hostpath":"D:/workbench/DevBoxTrusty/salt/roots","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"D:/workbench/DevBoxTrusty","disabled":false}}}
