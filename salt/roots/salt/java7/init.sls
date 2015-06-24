@@ -11,6 +11,11 @@
 #  * https://github.com/log0ymxm/salt-jvm/blob/master/init.sls
 #  * http://architects.dzone.com/articles/puppet-installing-oracle-java
 #
+
+python-software-properties:
+  pkg:
+    - installed
+
 oracle-ppa:
   pkgrepo.managed:
     - humanname: WebUpd8 Oracle Java PPA repository
@@ -18,7 +23,6 @@ oracle-ppa:
  
 oracle-license-select:
   cmd.run:
-    - unless: which java
     - name: '/bin/echo /usr/bin/debconf shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections'
     - require_in:
       - pkg: oracle-java7-installer

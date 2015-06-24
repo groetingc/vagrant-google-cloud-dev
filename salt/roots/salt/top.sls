@@ -4,7 +4,6 @@ base:
     - core
     - java7
     - chrome
-    - gcloud
     - nodejs
-#    - nginx
+    - gae-python
 
