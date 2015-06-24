@@ -1,1 +1,0 @@
-{"virtualbox":{"/home/vagrant/data":{"guestpath":"/home/vagrant/data","hostpath":"D:/workbench/BoxCutter/data","disabled":false},"/srv":{"guestpath":"/srv","hostpath":"D:/workbench/BoxCutter/salt/roots","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"D:/workbench/BoxCutter","disabled":false}}}
